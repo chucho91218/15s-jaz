@@ -17,16 +17,7 @@ export default function QrSocial() {
         viewport={{ once: true }}
         className="max-w-2xl mx-auto text-center"
       >
-        {/* SEPARADOR FLORAL */}
-        <motion.img
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1.2 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          src="/separador-rojo.png" 
-          alt="Detalle floral rojo"
-          className="w-48 md:w-64 mx-auto mb-10 object-contain drop-shadow-sm"
-        />
+    
 
         <h2 className="font-serif text-3xl md:text-4xl text-stone-900 mb-6">
           QR Social

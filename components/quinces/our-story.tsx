@@ -59,11 +59,7 @@ export default function OurStory() {
                     className="flex justify-center pt-4"
                   >
                     <PhotoView src={step.imgSrc}>
-                      <img 
-                        src={step.imgSrc} 
-                        alt="Jazmín etapa final" 
-                        className="w-40 h-40 md:w-48 md:h-48 object-cover rounded-3xl shadow-sm cursor-zoom-in"
-                      />
+                      
                     </PhotoView>
                   </motion.div>
                 )
